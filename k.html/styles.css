@@ -1,0 +1,45 @@
+.main1{
+    box-shadow:0 0 3px 0 rgba(0, 0,0,3);
+    background-color: black;
+    width:250px;
+    height:400px;
+    background-image:a_1605586441073 (2)png;
+ }
+.poo{
+    width:90%;
+    height:30px;
+    border-radius:50px;
+    color: red;
+    text-shadow:0 0 0  4 rgba(red,yellow, green);
+    display: flex;
+    justify-content: center;
+    border-bottom:red;
+    border-left-color:red ;
+    border-top-color: darkgreen;
+    border-right-color: darkgreen;
+}
+.po{
+    width:90%;
+    height:30px;
+    border-radius:50px;
+    text-align: center;
+    display: inline;
+    
+}
+.glow{
+    font-size:36px ;
+    font-family:cursive;
+    color: rgb(232, 248, 4);
+    animation:blink 10s infinite ;/*adjust the animation duration as needed*/
+}
+@keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+}
+.glow{
+    font-size: 36px;
+    font-family:cursive;
+    color: rgb(8, 8, 0);
+    text-shadow: 0 0 10px rgb(232, 248, 4), 0 0 20px rgb(248, 4, 4),0 0 30px rgb(232, 248, 4);
+}              
